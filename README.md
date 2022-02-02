@@ -39,4 +39,15 @@ While we are at it, we should also update our `package.json` making sure `main` 
 
 ### First let's connect to the database
 
+#### Products' Table
 
+| ID      | Description  | SKU     | UserId  |
+| :---    |    :----:    |   ---:  |   ---:  |
+| 1       | iPhone pro13 | SKU123  | null    |
+
+
+#### Users' Table
+
+| ID      | FirstName    | LastName     | Email  |
+| :---    |    :----:    |   ---:       |   ---: |
+| 1       | Darie        | Dorlus       | d@dorlus.com    |
