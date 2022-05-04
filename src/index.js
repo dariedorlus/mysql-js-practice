@@ -23,3 +23,7 @@ app.post('/products', async (req, res) => {
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
+
+let str = `INSERT INTO USERS (FirstName, LastName, Email) VALUES ("Darie", "Dorlus", "darie@dorlus.com");`
+
+// let str = "INSERT INTO USERS (FirstName, LastName, Email) VALUES (Darie, Dorlus, darie@dorlus.com);"
